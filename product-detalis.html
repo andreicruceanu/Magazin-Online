@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container head">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px" alt=""></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="product-detalis.html">Details</a></li>
+                </ul>
+            </nav>
+            <a class="link-user" href="login.html"><i id="user" class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            <a href="cart.html"><img class="cart-img" src="images/cart.png" style="cursor: pointer; margin: 0;"
+                    width="30px" height="30px"></a>
+            <i id="open" class="fa fa-bars" onclick="menu()"></i>
+            <i id="close" class="fa fa-times" onclick="menu()"></i>
+        </div>
+
+    </div>
+
+    <!-----single product details----------->
+    <div class="product-details" id="productDetails">
+        <div class="small-container">
+            <div class="row">
+                <div class="partea-stanga">
+                    <img src="images/gallery-1.jpg" id="productImg" alt="">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" onclick="imagine(this)" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" onclick="imagine(this)" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" onclick="imagine(this)" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" onclick="imagine(this)" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="partea-dreapta">
+                    <small>Home / T-Shirt</small>
+                    <h1>Red Printed T-Shirt by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <input type="number" value="1" min="1">
+                    <a href="#" class="btn">Add To Cart</a>
+                    <h3>Product Details <i class="fa fa-indent"></i></h3>
+                    <p class="descriere">Give your summer wardrobe a style upgrade with the HRX
+                        Men's Active T-shirt. Team it with a pair of shorts for
+                        your mornig workout or a denims for an evening out with the guys.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="small-container">
+        <div class="box">
+
+            <h1 class="title-product">Related Products</h1>
+            <p>View More</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="featured-products">
+        <div class="small-container" id="container">
+
+
+            <div class="row">
+                <div class="col4">
+                    <div class="col-box">
+                        <img src="images/product-9.jpg" alt="">
+                        <p>Black Spportx Watch</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>$135.00</p>
+                    </div>
+                </div>
+                <div class="col4">
+                    <div class="col-box">
+                        <img src="images/product-10.jpg" alt="">
+                        <p>Black HRX Shoes</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <p>$50.00</p>
+                    </div>
+                </div>
+                <div class="col4">
+                    <div class="col-box">
+                        <img src="images/product-11.jpg" alt="">
+                        <p>Gray Nike Shoes </p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <p>$65.00</p>
+                    </div>
+                </div>
+                <div class="col4">
+                    <div class="col-box">
+                        <img src="images/product-12.jpg" alt="">
+                        <p>HRX Black Trackpants</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <p>$75.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-------Footer------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h4>Download Our App</h4>
+                    <p>Download App for Android and IOS mobile phone</p>
+                    <img src="images/app-store.png" alt="">
+                    <img src="images/play-store.png" alt="">
+                </div>
+                <div class="footer-col2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose is To Sustainably Make the Pleasure
+                        and Benefits of Sport Accessibile to the Many.
+                    </p>
+                </div>
+                <div class="footer-col3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col3">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="soryright">Copyright 2020 </p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        var close = document.getElementById("close");
+        var open = document.getElementById("open");
+        var productDetails = document.getElementById("productDetails");
+        MenuItems.style.maxHeight = "0px";
+
+
+
+        function menu() {
+            if (MenuItems.style.maxHeight == "0px") {
+                open.style.display = "none"
+                close.style.display = "block"
+                productDetails.style.opacity = ".6"
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+                productDetails.style.opacity = "1"
+                open.style.display = "block"
+                close.style.display = "none"
+            }
+
+        }
+    </script>
+    <script>
+        var img = document.getElementById("productImg");
+
+        function imagine(smallimg) {
+            img.src = smallimg.src;
+        }
+    </script>
+
+</body>
+
+</html>
